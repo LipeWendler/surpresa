@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#12030A">
+
+<title>uma coisinha pra você</title>
+<meta name="description" content="eu fiz uma coisinha pra você. porque aparentemente eu não sei gostar quieto.">
+
+<!-- prévia do link no WhatsApp -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Oi, bebê.">
+<meta property="og:description" content="eu fiz uma coisinha pra você.">
+<meta property="og:image" content="">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,400&family=JetBrains+Mono:wght@400;500&family=Caveat:wght@400;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="progresso" aria-hidden="true"><span class="progresso__linha"></span></div>
+<div class="clarao" data-clarao aria-hidden="true"></div>
+<div class="coracoes" data-coracoes aria-hidden="true"></div>
+
+<main>
+
+<!-- ══════════ 00 · ENTRADA ══════════ -->
+<section class="cap centro" id="cap-00" data-tom="#12030A" data-brilho="rgba(200,30,60,.13)" data-brilho-baixo="rgba(107,11,33,.22)">
+  <div class="cap__corpo">
+    <p class="linha serif-display grande reveal">Oi, bebê.</p>
+    <p class="linha reveal">Eu fiz uma coisinha pra você.</p>
+    <p class="linha mao reveal">Porque aparentemente eu não sei gostar quieto.</p>
+    <p class="instrucao reveal"><span class="instrucao__seta">↓</span> toque para começar</p>
+    <button class="btn btn--primario btn--grande" data-ir="#cap-01">entra aqui, minha princesa &hearts;</button>
+  </div>
+</section>
+
+<!-- ══════════ 01 · DESCOBERTAS ══════════ -->
+<section class="cap" id="cap-01" data-tom="#16040D" data-brilho="rgba(200,30,60,.14)" data-brilho-baixo="rgba(107,11,33,.20)">
+  <div class="cap__corpo">
+    <p class="num">01</p>
+    <h2 class="titulo reveal">Coisas que eu descobri sobre você</h2>
+    <p class="intro reveal">Em pouco mais de uma semana eu descobri que...</p>
+    <ul class="lista">
+      <li class="reveal">você ama rosas vermelhas.</li>
+      <li class="reveal">você se declara oficialmente chocólatra.</li>
+      <li class="reveal">seu gosto musical é assustadoramente parecido com o meu.</li>
+      <li class="reveal">você consegue transformar “vou só olhar umas roupas” em um evento de duração indefinida.</li>
+      <li class="reveal">existe um ser minúsculo chamado Chico competindo pela sua atenção.</li>
+      <li class="reveal">e você me chama de bebê<span class="segredo" data-segredo="1" role="button" tabindex="0" aria-label="coração escondido">&hearts;</span>...</li>
+      <li class="reveal destaque">...e eu gosto muito quando você faz isso.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ══════════ 02 · MÚSICA ══════════ -->
+<section class="cap" id="cap-02" data-tom="#1A0510" data-brilho="rgba(200,30,60,.16)" data-brilho-baixo="rgba(107,11,33,.24)" data-trava="generos">
+  <div class="cap__corpo">
+    <p class="num">02</p>
+    <h2 class="titulo reveal">Até nisso você tinha que combinar comigo?</h2>
+
+    <!-- saída de som em loop -->
+    <div class="equalizador reveal" data-equalizador aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+
+    <p class="instrucao reveal" data-instrucao="generos">
+      <span class="instrucao__seta">↓</span> vire todas as cartas
+    </p>
+
+    <div class="cartas reveal" data-cartas>
+      <button class="carta" data-genero="funk" data-veredito="aprovado" aria-label="virar carta">
+        <span class="carta__face carta__verso"><span class="mono">toque</span></span>
+        <span class="carta__face carta__frente">
+          <span class="carta__nome">funk</span>
+          <span class="carta__selo">aprovado</span>
+        </span>
+      </button>
+      <button class="carta" data-genero="sertanejo" data-veredito="aprovado" aria-label="virar carta">
+        <span class="carta__face carta__verso"><span class="mono">toque</span></span>
+        <span class="carta__face carta__frente">
+          <span class="carta__nome">sertanejo</span>
+          <span class="carta__selo">aprovado</span>
+        </span>
+      </button>
+      <button class="carta" data-genero="sotam" data-veredito="aprovado" aria-label="virar carta">
+        <span class="carta__face carta__verso"><span class="mono">toque</span></span>
+        <span class="carta__face carta__frente">
+          <span class="carta__nome">sotam</span>
+          <span class="carta__selo">aprovado</span>
+        </span>
+      </button>
+      <button class="carta" data-genero="rock" data-veredito="reprovado" aria-label="virar carta">
+        <span class="carta__face carta__verso"><span class="mono">toque</span></span>
+        <span class="carta__face carta__frente">
+          <span class="carta__nome">rock</span>
+          <span class="carta__selo">reprovado</span>
+        </span>
+      </button>
+      <button class="carta" data-genero="k-pop" data-veredito="reprovado" aria-label="virar carta">
+        <span class="carta__face carta__verso"><span class="mono">toque</span></span>
+        <span class="carta__face carta__frente">
+          <span class="carta__nome">k-pop</span>
+          <span class="carta__selo">reprovado</span>
+        </span>
+      </button>
+    </div>
+
+    <div class="cartao cartao--ouro centro veredito" data-veredito-final hidden>
+      <p class="mono rotulo">compatibilidade musical</p>
+      <p class="mono veredito__valor" data-veredito-valor></p>
+    </div>
+
+    <p class="linha reveal" style="margin-top:2rem;">isso está começando a ficar suspeito.</p>
+    <p class="linha mao reveal">+1 ponto para a teoria de que você está facilitando demais eu gostar de você.</p>
+  </div>
+</section>
+
+<!-- ══════════ 03 · CHOCOLATE ══════════ -->
+<section class="cap" id="cap-03" data-tom="#200714" data-brilho="rgba(201,162,39,.10)" data-brilho-baixo="rgba(107,11,33,.26)" data-trava="chocolate">
+  <div class="cap__corpo">
+    <p class="num">03</p>
+    <h2 class="titulo reveal">A grande incompatibilidade</h2>
+    <p class="intro reveal">Você: chocolate doce.<br>Eu: chocolate amargo.</p>
+
+    <div class="contador reveal" data-contador>
+      <span class="contador__num" data-contador-num>100</span><span class="contador__pct">%</span>
+      <p class="mono rotulo" data-contador-rotulo>compatibilidade geral</p>
+    </div>
+
+    <p class="instrucao reveal" data-instrucao="chocolate">
+      <span class="instrucao__seta">↓</span> escolha o seu, princesa
+    </p>
+    <div class="escolha reveal">
+      <button class="btn btn--contorno" data-chocolate="doce" aria-pressed="false">chocolate doce</button>
+      <button class="btn btn--contorno" data-chocolate="amargo" aria-pressed="false">chocolate amargo</button>
+    </div>
+    <p class="resposta mono" data-chocolate-resposta aria-live="polite"></p>
+    <p class="dica mao" data-chocolate-dica></p>
+
+    <p class="fecho serif reveal">você nunca vai precisar dividir seu chocolate comigo. talvez isso seja amor verdadeiro.</p>
+  </div>
+</section>
+
+<!-- ══════════ 04 · ESPECIFICAÇÕES ══════════ -->
+<section class="cap" id="cap-04" data-tom="#180612" data-brilho="rgba(200,30,60,.13)" data-brilho-baixo="rgba(107,11,33,.22)">
+  <div class="cap__corpo">
+    <p class="num">04</p>
+    <h2 class="titulo reveal">Especificações da princesa</h2>
+
+    <div class="alturas reveal" data-alturas>
+      <div class="alturas__item">
+        <div class="barra barra--ele"><span></span></div>
+        <p class="mono">eu · 193 cm</p>
+      </div>
+      <div class="alturas__item">
+        <div class="barra barra--ela"><span></span></div>
+        <p class="mono">você · 150 cm</p>
+      </div>
+    </div>
+
+    <p class="fecho serif reveal">Uma quantidade extravagante de beleza e fofura comprimida em um ser compacto e delicado.</p>
+
+    <dl class="specs reveal">
+      <div class="specs__linha">
+        <dt>altura</dt>
+        <dd>150 cm <span class="etiqueta etiqueta--rosa">perfeita</span></dd>
+      </div>
+      <div class="specs__linha">
+        <dt>beleza</dt>
+        <dd>excessiva <span class="etiqueta etiqueta--rosa">linda</span></dd>
+      </div>
+      <div class="specs__linha">
+        <dt>fofura</dt>
+        <dd>excessiva <span class="etiqueta etiqueta--ouro">incomparável</span></dd>
+      </div>
+      <div class="specs__linha">
+        <dt>estilo</dt>
+        <dd>excessivo <span class="etiqueta etiqueta--ouro">única</span></dd>
+      </div>
+      <div class="specs__linha">
+        <dt>espaço ocupado</dt>
+        <dd>surpreendentemente pouco</dd>
+      </div>
+      <div class="specs__linha specs__linha--conclusao">
+        <dt>conclusão</dt>
+        <dd>concentração anormal de qualidades por centímetro</dd>
+      </div>
+    </dl>
+
+    <p class="aviso mono reveal">
+      <span class="selo">aviso</span>
+      apesar do tamanho compacto, pode causar sentimentos em proporções completamente desnecessárias.<span class="segredo" data-segredo="2" role="button" tabindex="0" aria-label="coração escondido">&hearts;</span>
+    </p>
+
+    <p class="vantagem reveal">
+      <span class="vantagem__rotulo mono">vantagem</span>
+      Cabe perfeitamente no meu abraço <span class="cor">&hearts;</span>
+    </p>
+  </div>
+</section>
+
+<!-- ══════════ 05 · CHICO ══════════ -->
+<section class="cap" id="cap-05" data-tom="#1C0713" data-brilho="rgba(201,162,39,.09)" data-brilho-baixo="rgba(107,11,33,.24)" data-trava="chico">
+  <div class="cap__corpo">
+    <p class="num">05</p>
+    <h2 class="titulo reveal">Existe outro homem nessa história</h2>
+    <ul class="lista curta">
+      <li class="reveal">pequeno.</li>
+      <li class="reveal">peludo.</li>
+      <li class="reveal">e aparentemente já tem mais moral com você do que eu.</li>
+    </ul>
+
+    <figure class="chico reveal">
+      <img width="40%" src="assets/chico.jpeg" alt="Chico">
+    </figure>
+
+    <dl class="specs reveal">
+      <div class="specs__linha"><dt>nome</dt><dd>Chico</dd></div>
+      <div class="specs__linha"><dt>função</dt><dd>fiscal oficial do relacionamento</dd></div>
+      <div class="specs__linha"><dt>nível de ameaça</dt><dd>100% <span class="etiqueta etiqueta--rosa">rival</span></dd></div>
+    </dl>
+
+    <div class="centro">
+      <p class="instrucao reveal" data-instrucao="chico">
+        <span class="instrucao__seta">↓</span> toque no botão até ele te aceitar
+      </p>
+      <button class="btn btn--carinho" data-chico>Faça carinho no Chico</button>
+      <p class="resposta mono" data-chico-resposta aria-live="polite"></p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ 06 · SÓ OLHANDO ══════════ -->
+<section class="cap centro" id="cap-06" data-tom="#220A17" data-brilho="rgba(226,64,84,.14)" data-brilho-baixo="rgba(107,11,33,.26)" data-trava="relogio">
+  <div class="cap__corpo">
+    <p class="num">06</p>
+    <h2 class="titulo reveal">“amor, só tô olhando.”</h2>
+    <div class="cartao cartao--ouro reveal">
+      <p class="mono rotulo">tempo estimado</p>
+      <p class="relogio__valor" data-relogio aria-live="polite">17 minutos</p>
+    </div>
+    <p class="instrucao reveal" data-instrucao="relogio">
+      <span class="instrucao__seta">↓</span> toque quantas vezes precisar
+    </p>
+    <button class="btn btn--suave" data-relogio-btn>só mais 5 minutinhos</button>
+    <p class="mao" data-relogio-nota style="min-height:2rem; margin-top:1rem;"></p>
+  </div>
+</section>
+
+<!-- ══════════ 07 · O QUE EU GOSTO ══════════ -->
+<section class="cap" id="cap-07" data-tom="#240815" data-brilho="rgba(226,64,84,.16)" data-brilho-baixo="rgba(107,11,33,.20)">
+  <div class="cap__corpo">
+    <p class="num">07</p>
+    <h2 class="titulo reveal">Coisas que eu gosto em você</h2>
+    <div class="prosa">
+      <p class="reveal">Você é linda.</p>
+      <p class="reveal mao">Tá, isso foi pouco.</p>
+      <p class="reveal">Eu gosto do seu jeito. Gosto de como você fala comigo. Gosto das nossas conversas.</p>
+      <p class="reveal">Gosto dos seus <em>bebê</em>, <em>meu bem</em> e <em>amorzinho</em>.</p>
+      <p class="reveal">E eu talvez esteja ficando perigosamente acostumado a ouvir isso.</p>
+      <p class="reveal">Você sempre aparece linda, toda estilosa, toda arrumadinha.</p>
+      <p class="reveal mao">e eu aqui, tentando agir como uma pessoa normal.</p>
+    </div>
+
+    <div class="terminal mono reveal">
+      <p class="terminal__linha">&gt; status do Felipe ao receber foto sua</p>
+      <p class="terminal__linha">processando<span class="pontos"></span></p>
+      <p class="terminal__linha erro">erro: capacidade de raciocínio indisponível</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ 08 · DICIONÁRIO ══════════ -->
+<section class="cap" id="cap-08" data-tom="#1A0510" data-brilho="rgba(201,162,39,.11)" data-brilho-baixo="rgba(107,11,33,.22)">
+  <div class="cap__corpo">
+    <p class="num">08</p>
+    <h2 class="titulo reveal">Dicionário da gente</h2>
+    <p class="instrucao reveal"><span class="instrucao__seta">↓</span> toque em cada palavra</p>
+    <dl class="dicionario reveal">
+      <div class="verbete" data-verbete>
+        <dt>bebê <span class="classe">subst.</span></dt>
+        <dd>termo utilizado em frequência perigosamente alta. efeito colateral: sorriso idiota.</dd>
+      </div>
+      <div class="verbete" data-verbete>
+        <dt>meu bem <span class="classe">subst.</span></dt>
+        <dd>aparentemente duas palavras suficientes para acabar comigo.</dd>
+      </div>
+      <div class="verbete" data-verbete>
+        <dt>amorzinho <span class="classe">subst.</span></dt>
+        <dd>perigoso. utilizar com moderação. ou não.<span class="segredo" data-segredo="3" role="button" tabindex="0" aria-label="coração escondido">&hearts;</span></dd>
+      </div>
+      <div class="verbete" data-verbete>
+        <dt>minha princesa <span class="classe">subst.</span></dt>
+        <dd>combina um pouquinho demais com você.</dd>
+      </div>
+      <div class="verbete" data-verbete>
+        <dt>minha paixão <span class="classe">subst.</span></dt>
+        <dd>talvez esteja ficando autoexplicativa.</dd>
+      </div>
+    </dl>
+
+    <div class="ovo reveal" data-ovo>
+      <label for="campo-bebe">me chama de bebê de novo. só para fins científicos.</label>
+      <input id="campo-bebe" class="campo" type="text" autocomplete="off" placeholder="digita aqui" data-campo-bebe>
+      <p class="resposta-bebe" data-resposta-bebe aria-live="polite"></p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ 09 · 404 ══════════ -->
+<section class="cap centro" id="cap-09" data-tom="#0E0208" data-brilho="rgba(242,232,220,.05)" data-brilho-baixo="rgba(107,11,33,.14)" data-trava="resolver">
+  <div class="cap__corpo">
+    <p class="num">09</p>
+    <h2 class="titulo reveal">Nossa primeira foto</h2>
+    <div class="polaroid reveal">
+      <div class="polaroid__area">
+        <p class="mono erro">404</p>
+        <p class="mono">arquivo não encontrado</p>
+      </div>
+      <p class="polaroid__legenda mao">nossa primeira foto</p>
+    </div>
+    <p class="linha reveal">procurei em todos os arquivos.</p>
+    <p class="linha reveal">aparentemente a gente ainda não tirou nenhuma.</p>
+    <p class="linha destaque reveal">isso precisa ser corrigido.</p>
+
+    <p class="instrucao reveal" data-instrucao="resolver">
+      <span class="instrucao__seta">↓</span> toque para ver o plano
+    </p>
+    <button class="btn btn--contorno" data-resolver>resolver esse problema</button>
+    <ol class="passos" data-passos hidden>
+      <li>encontrar o bebê de 1,93 m</li>
+      <li>ficar absurdamente linda <span class="obs">(opcional, já vem de fábrica)</span></li>
+      <li>tirar foto juntos</li>
+      <li>atualizar este site</li>
+    </ol>
+  </div>
+</section>
+
+<!-- ══════════ 10 · ROSA ══════════ -->
+<section class="cap centro" id="cap-10" data-tom="#2A0A18" data-brilho="rgba(226,64,84,.22)" data-brilho-baixo="rgba(200,30,60,.20)" data-trava="rosa">
+  <div class="cap__corpo">
+    <p class="num">10</p>
+    <h2 class="titulo reveal">Uma rosa, porque...</h2>
+
+    <p class="instrucao reveal" data-instrucao="rosa">
+      <span class="instrucao__seta">↓</span> toque em cada pétala
+    </p>
+
+    <div class="rosa-palco reveal" data-rosa-palco>
+      <div class="rosa-palco__svg" data-rosa>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="rosa-title" class="rosa">
+  <title id="rosa-title">Uma rosa vermelha. Cada pétala esconde um motivo.</title>
+  <defs>
+    <radialGradient id="rosa-luz" cx="50%" cy="46%" r="58%">
+      <stop offset="0%" stop-color="#FF7A8C" stop-opacity=".22"/>
+      <stop offset="62%" stop-color="#B01030" stop-opacity=".06"/>
+      <stop offset="100%" stop-color="#2A0512" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="rosa-vol" cx="50%" cy="50%" r="52%">
+      <stop offset="0%" stop-color="#FFA3AF" stop-opacity=".34"/>
+      <stop offset="100%" stop-color="#5A0418" stop-opacity=".22"/>
+    </radialGradient>
+    <filter id="rosa-sombra" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="7" stdDeviation="13" flood-color="#12000A" flood-opacity=".5"/>
+    </filter>
+  </defs>
+
+  <circle cx="200" cy="200" r="192" fill="url(#rosa-luz)"/>
+
+  <g filter="url(#rosa-sombra)">
+    <path class="petala" id="petala-1" data-petala="1" role="button" tabindex="0" aria-label="Pétala 1"
+          fill="var(--petala-1, #6B0B21)" stroke="var(--ouro, #C9A227)" stroke-width=".85" stroke-opacity=".40"
+          d="M 195.04 172.74 C 148.46 124.66 133.35 62.03 136.52 49.87 C 162.96 26.23 200.00 30.48 215.70 43.49 C 233.68 33.86 270.82 37.06 292.04 65.47 C 292.73 78.02 251.54 124.66 204.96 172.74 Z"/>
+    <path class="petala" id="petala-2" data-petala="2" role="button" tabindex="0" aria-label="Pétala 2"
+          fill="var(--petala-2, #6E0C22)" stroke="var(--ouro, #C9A227)" stroke-width=".85" stroke-opacity=".40"
+          d="M 221.29 215.86 C 285.71 217.30 337.48 251.42 343.18 262.30 C 339.51 297.49 309.54 319.88 289.43 321.27 C 282.15 340.08 251.90 362.09 217.20 355.19 C 208.49 346.53 209.74 286.90 213.93 222.59 Z"/>
+    <path class="petala" id="petala-3" data-petala="3" role="button" tabindex="0" aria-label="Pétala 3"
+          fill="var(--petala-3, #720E24)" stroke="var(--ouro, #C9A227)" stroke-width=".85" stroke-opacity=".40"
+          d="M 174.79 202.80 C 129.77 245.26 71.09 255.26 59.84 251.16 C 38.98 222.85 45.45 186.05 58.89 171.39 C 52.22 152.66 60.59 116.24 90.83 98.29 C 102.79 98.90 138.72 143.20 175.66 192.86 Z"/>
+    <path class="petala" id="petala-4" data-petala="4" role="button" tabindex="0" aria-label="Pétala 4"
+          fill="var(--petala-4, #771126)" stroke="var(--ouro, #C9A227)" stroke-width=".85" stroke-opacity=".40"
+          d="M 215.75 181.66 C 217.89 122.42 252.40 77.06 263.17 72.63 C 297.32 79.39 317.68 110.47 318.00 130.00 C 334.99 139.65 352.50 172.43 342.07 205.63 C 333.02 212.96 279.57 202.86 221.79 189.55 Z"/>
+    <path class="petala" id="petala-5" data-petala="5" role="button" tabindex="0" aria-label="Pétala 5"
+          fill="var(--petala-5, #7D1329)" stroke="var(--ouro, #C9A227)" stroke-width=".85" stroke-opacity=".40"
+          d="M 200.94 222.94 C 239.21 264.67 244.72 318.81 239.91 329.02 C 210.59 346.82 174.85 338.18 161.48 324.50 C 142.73 328.25 108.35 315.20 94.21 283.95 C 96.00 272.81 140.99 247.31 191.25 221.23 Z"/>
+    <path class="petala" id="petala-6" data-petala="6" role="button" tabindex="0" aria-label="Pétala 6"
+          fill="var(--petala-6, #84162C)" stroke="var(--ouro, #C9A227)" stroke-width=".85" stroke-opacity=".40"
+          d="M 184.54 184.73 C 130.72 182.00 91.70 147.96 88.47 137.56 C 97.86 105.25 129.35 87.40 147.98 88.16 C 159.40 73.42 193.33 60.84 224.09 74.47 C 229.97 83.65 213.05 129.62 192.72 179.53 Z"/>
+    <path class="petala" id="petala-7" data-petala="7" role="button" tabindex="0" aria-label="Pétala 7"
+          fill="var(--petala-7, #8B192F)" stroke="var(--ouro, #C9A227)" stroke-width=".85" stroke-opacity=".40"
+          d="M 220.47 200.58 C 258.63 166.63 307.67 164.92 316.72 170.20 C 331.30 199.61 320.74 233.42 307.07 245.27 C 308.09 263.34 291.20 294.47 259.94 304.49 C 249.84 301.68 234.00 258.26 218.01 209.76 Z"/>
+    <path class="petala" id="petala-8" data-petala="8" role="button" tabindex="0" aria-label="Pétala 8"
+          fill="var(--petala-8, #921C32)" stroke="var(--ouro, #C9A227)" stroke-width=".85" stroke-opacity=".40"
+          d="M 185.59 212.69 C 182.41 260.77 149.75 293.55 139.95 295.69 C 110.22 284.29 95.26 253.25 97.05 235.88 C 84.86 223.38 77.28 189.77 93.48 162.36 C 102.48 157.95 140.17 179.45 181.33 204.49 Z"/>
+    <path class="petala-fundo" aria-hidden="true"
+          fill="var(--petala-fundo-8, #9A2035)" stroke="var(--ouro, #C9A227)" stroke-width=".7" stroke-opacity=".26"
+          d="M 201.75 182.18 C 172.24 147.95 173.59 104.57 179.08 96.76 C 207.58 85.43 238.60 97.47 248.74 110.80 C 265.43 112.13 292.32 131.73 298.18 161.83 C 294.57 170.67 254.76 178.08 210.14 185.24 Z"/>
+    <path class="petala-fundo" aria-hidden="true"
+          fill="var(--petala-fundo-9, #A22338)" stroke="var(--ouro, #C9A227)" stroke-width=".7" stroke-opacity=".26"
+          d="M 210.07 213.17 C 252.02 216.62 278.72 246.97 279.91 255.90 C 267.24 282.33 237.65 294.18 221.94 291.52 C 209.15 301.01 177.41 303.87 154.13 286.06 C 151.14 277.56 174.86 248.48 202.16 216.44 Z"/>
+    <path class="petala-fundo" aria-hidden="true"
+          fill="var(--petala-fundo-10, #AA273C)" stroke="var(--ouro, #C9A227)" stroke-width=".7" stroke-opacity=".26"
+          d="M 185.00 197.46 C 155.14 222.36 117.98 218.77 111.50 213.37 C 103.33 186.86 116.18 159.51 128.72 151.23 C 131.89 136.55 152.74 114.65 180.40 112.67 C 187.78 116.76 188.41 151.23 188.44 190.11 Z"/>
+    <path class="petala-fundo" aria-hidden="true"
+          fill="var(--petala-fundo-11, #B32B40)" stroke="var(--ouro, #C9A227)" stroke-width=".7" stroke-opacity=".26"
+          d="M 211.53 192.40 C 215.03 157.06 242.04 136.25 249.84 135.84 C 272.29 148.85 280.96 175.81 277.68 189.42 C 284.48 201.66 283.33 229.96 265.18 248.50 C 257.56 250.19 236.87 226.65 213.81 199.65 Z"/>
+    <path class="petala-fundo" aria-hidden="true"
+          fill="var(--petala-fundo-12, #BC2F44)" stroke="var(--ouro, #C9A227)" stroke-width=".7" stroke-opacity=".26"
+          d="M 197.10 212.01 C 217.15 236.91 212.23 267.21 207.25 272.31 C 183.95 277.57 161.14 264.82 154.82 253.64 C 142.72 249.31 126.28 228.99 127.51 205.14 C 131.69 199.37 159.45 203.48 191.03 208.49 Z"/>
+    <path class="petala-fundo" aria-hidden="true"
+          fill="var(--petala-fundo-13, #C53348)" stroke="var(--ouro, #C9A227)" stroke-width=".7" stroke-opacity=".26"
+          d="M 194.68 190.57 C 166.66 187.29 151.54 164.82 151.71 158.45 C 163.89 140.69 186.82 135.07 197.83 138.56 C 208.57 134.30 231.83 138.28 245.24 155.15 C 245.85 161.48 224.92 174.47 200.87 189.20 Z"/>
+    <path class="petala-fundo" aria-hidden="true"
+          fill="var(--petala-fundo-14, #CE374C)" stroke="var(--ouro, #C9A227)" stroke-width=".7" stroke-opacity=".26"
+          d="M 208.78 202.78 C 227.85 187.98 250.46 193.15 254.10 197.30 C 256.86 215.92 245.52 233.20 236.42 237.50 C 231.84 246.48 214.25 257.30 195.71 254.00 C 191.67 250.24 198.13 230.28 205.59 207.32 Z"/>
+    <path class="petala-fundo" aria-hidden="true"
+          fill="var(--petala-fundo-15, #D83C50)" stroke="var(--ouro, #C9A227)" stroke-width=".7" stroke-opacity=".26"
+          d="M 193.29 203.19 C 190.66 222.61 174.40 232.12 169.88 231.66 C 157.71 221.90 154.84 205.00 157.93 197.27 C 155.86 189.21 160.89 172.83 174.22 164.72 C 178.76 164.85 185.20 180.52 192.70 198.63 Z"/>
+    <path class="petala-fundo" aria-hidden="true"
+          fill="var(--petala-fundo-16, #E24054)" stroke="var(--ouro, #C9A227)" stroke-width=".7" stroke-opacity=".26"
+          d="M 201.87 195.26 C 193.77 184.40 197.47 171.91 200.00 170.00 C 210.97 169.19 220.57 176.55 222.68 182.01 C 227.52 185.30 232.49 196.32 229.21 206.82 C 226.77 208.85 216.43 203.49 204.36 197.35 Z"/>
+
+    <g class="rosa__miolo" aria-hidden="true">
+      <circle cx="200" cy="200" r="15" fill="url(#rosa-vol)"/>
+      <path fill="none" stroke="var(--petala-miolo, #EE5C6C)" stroke-width="4" stroke-linecap="round" stroke-opacity=".9" d="M 200.00 198.60 L 200.27 198.50 L 200.58 198.45 L 200.92 198.47 L 201.26 198.56 L 201.60 198.73 L 201.92 198.97 L 202.20 199.29 L 202.42 199.68 L 202.56 200.13 L 202.63 200.61 L 202.59 201.12 L 202.46 201.64 L 202.22 202.15 L 201.87 202.61 L 201.43 203.02 L 200.90 203.36 L 200.29 203.59 L 199.63 203.71 L 198.94 203.71 L 198.23 203.58 L 197.54 203.31 L 196.90 202.91 L 196.32 202.37 L 195.83 201.72 L 195.46 200.98 L 195.23 200.15 L 195.15 199.28 L 195.24 198.38 L 195.49 197.49 L 195.91 196.64 L 196.50 195.87 L 197.23 195.19 L 198.09 194.65 L 199.06 194.27 L 200.10 194.06 L 201.19 194.05 L 202.28 194.24 L 203.34 194.63 L 204.34 195.22 L 205.23 195.99 L 205.97 196.94 L 206.55 198.02 L 206.93 199.21 L 207.09 200.47 L 207.01 201.76 L 206.70 203.04 L 206.16 204.27 L 205.39 205.39 L 204.41 206.38 L 203.25 207.18 L 201.94 207.77 L 200.53 208.12 L 199.05 208.21 L 197.56 208.04 L 196.10 207.58 L 194.72 206.86 L 193.48 205.90 L 192.42 204.70 L 191.58 203.32 L 191.00 201.78 L 190.70 200.14 L 190.69 198.46 L 191.00 196.77 L 191.61 195.15 L 192.51 193.64 L 193.69 192.30 L 195.11 191.18 L 196.73 190.33 L 198.49 189.77 L 200.35 189.53 L 202.25 189.64 L 204.12 190.09 L 205.89 190.88"/>
+      <path fill="none" stroke="var(--ouro, #C9A227)" stroke-width=".8" stroke-linecap="round" stroke-opacity=".40" d="M 200.00 198.60 L 200.27 198.50 L 200.58 198.45 L 200.92 198.47 L 201.26 198.56 L 201.60 198.73 L 201.92 198.97 L 202.20 199.29 L 202.42 199.68 L 202.56 200.13 L 202.63 200.61 L 202.59 201.12 L 202.46 201.64 L 202.22 202.15 L 201.87 202.61 L 201.43 203.02 L 200.90 203.36 L 200.29 203.59 L 199.63 203.71 L 198.94 203.71 L 198.23 203.58 L 197.54 203.31 L 196.90 202.91 L 196.32 202.37 L 195.83 201.72 L 195.46 200.98 L 195.23 200.15 L 195.15 199.28 L 195.24 198.38 L 195.49 197.49 L 195.91 196.64 L 196.50 195.87 L 197.23 195.19 L 198.09 194.65 L 199.06 194.27 L 200.10 194.06 L 201.19 194.05 L 202.28 194.24 L 203.34 194.63 L 204.34 195.22 L 205.23 195.99 L 205.97 196.94 L 206.55 198.02 L 206.93 199.21 L 207.09 200.47 L 207.01 201.76 L 206.70 203.04 L 206.16 204.27 L 205.39 205.39 L 204.41 206.38 L 203.25 207.18 L 201.94 207.77 L 200.53 208.12 L 199.05 208.21 L 197.56 208.04 L 196.10 207.58 L 194.72 206.86 L 193.48 205.90 L 192.42 204.70 L 191.58 203.32 L 191.00 201.78 L 190.70 200.14 L 190.69 198.46 L 191.00 196.77 L 191.61 195.15 L 192.51 193.64 L 193.69 192.30 L 195.11 191.18 L 196.73 190.33 L 198.49 189.77 L 200.35 189.53 L 202.25 189.64 L 204.12 190.09 L 205.89 190.88"/>
+    </g>
+  </g>
+</svg>
+      </div>
+      <p class="rosa-frase serif" data-rosa-frase aria-live="polite">&nbsp;</p>
+      <p class="mono contagem" data-rosa-contagem>0 / 8</p>
+    </div>
+
+    <div class="porques" data-porques hidden>
+      <p class="mono rotulo">os oito porquês</p>
+      <ul data-porques-lista></ul>
+      <p class="porques__fecho mao" data-porques-fecho></p>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ 11 · NÃO CLIQUE ══════════ -->
+<section class="cap cap--alerta centro" id="cap-11" data-tom="#320B1B" data-brilho="rgba(226,64,84,.24)" data-brilho-baixo="rgba(200,30,60,.24)" data-trava="proibido">
+  <div class="cap__corpo">
+    <p class="num">11</p>
+    <p class="instrucao reveal" data-instrucao="proibido">
+      <span class="instrucao__seta">↓</span> não toque nesse botão
+    </p>
+    <button class="botao-proibido" data-proibido>NÃO CLIQUE</button>
+    <p class="digitando serif grande" data-proibido-resposta aria-live="polite"><span data-digitado></span><span class="cursor" data-cursor></span></p>
+  </div>
+</section>
+
+<!-- ══════════ 12 · SÉRIO ══════════ -->
+<section class="cap" id="cap-12" data-tom="#240815" data-brilho="rgba(201,162,39,.13)" data-brilho-baixo="rgba(107,11,33,.26)">
+  <div class="cap__corpo">
+    <p class="num">12</p>
+    <p class="mono rotulo reveal">falando sério por alguns segundos</p>
+    <blockquote class="carta-texto">
+      <p class="reveal">Faz pouco tempo que eu te conheço.</p>
+      <p class="reveal">E talvez justamente por isso seja engraçado perceber quantas coisinhas suas já começaram a ocupar espaço na minha cabeça.</p>
+      <p class="reveal">Seu jeito comigo, nossas conversas, você me chamando de bebê, suas histórias, seu gosto musical, a sua obsessão por chocolate e até o pequeno Chico.<span class="segredo" data-segredo="4" role="button" tabindex="0" aria-label="coração escondido">&hearts;</span></p>
+      <p class="reveal">Eu não sei exatamente onde tudo isso vai dar ainda.</p>
+      <p class="reveal">Mas sei que tenho gostado muito de descobrir.</p>
+      <p class="reveal destaque">E tenho gostado muito de você, minha princesa.</p>
+    </blockquote>
+  </div>
+</section>
+
+<!-- ══════════ 13 · FINAL ══════════ -->
+<section class="cap centro" id="cap-13" data-tom="#2E0B1A" data-brilho="rgba(226,64,84,.20)" data-brilho-baixo="rgba(200,30,60,.18)" data-trava="fuga">
+  <div class="cap__corpo">
+    <p class="num">13</p>
+    <p class="linha reveal">Enfim...</p>
+    <p class="linha reveal">eu poderia simplesmente ter dito que gosto de você.</p>
+    <p class="linha mao reveal">mas aparentemente resolvi desenvolver um site inteiro.</p>
+    <p class="declaracao serif-display reveal">Gosto de você, bebê. <span class="cor">&hearts;</span></p>
+    <p class="linha mao reveal">bastante, inclusive.</p>
+
+    <p class="instrucao reveal" data-instrucao="fuga">
+      <span class="instrucao__seta">↓</span> tenta terminar, vai
+    </p>
+    <div class="fuga" data-fuga-area>
+      <button class="btn btn--contorno" data-fuga>terminar</button>
+    </div>
+    <p class="resposta serif" data-fuga-resposta aria-live="polite"></p>
+    <p class="fuga-final serif-display" data-fuga-final hidden></p>
+  </div>
+</section>
+
+<!-- ══════════ 14 · VERSÃO ══════════ -->
+<section class="cap cap--rodape" id="cap-14" data-tom="#12030A" data-brilho="rgba(201,162,39,.08)" data-brilho-baixo="rgba(107,11,33,.18)">
+  <div class="cap__corpo">
+    <p class="num">14</p>
+    <div class="cartao cartao--ouro reveal">
+      <div class="versao">
+        <p class="versao__titulo">versão 0.1</p>
+        <p>porque eu ainda estou te conhecendo.</p>
+        <p class="versao__data">última atualização: 12/08/2026</p>
+        <p class="versao__rotulo">próximos itens possíveis</p>
+        <ul>
+          <li>primeira foto</li>
+          <li>novas piadas internas</li>
+          <li>novas músicas</li>
+          <li>lugares que virarem “nossos”</li>
+          <li>coisas que eu ainda vou descobrir sobre você</li>
+        </ul>
+        <p class="versao__continua">continua...</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<div class="pista" data-pista aria-hidden="true">
+  <span class="pista__texto" data-pista-texto>continue rolando</span>
+  <span class="pista__seta" data-pista-seta>↓</span>
+</div>
+
+<aside class="cupons" data-cupons hidden>
+  <p class="cupons__titulo">você encontrou <span data-cupons-total>0</span> de 4</p>
+  <ul data-cupons-lista></ul>
+</aside>
+
+<script src="content.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

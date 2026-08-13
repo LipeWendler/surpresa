@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="rosa-title" class="rosa">
+  <title id="rosa-title">Uma rosa vermelha. Cada pétala esconde um motivo.</title>
+  <defs>
+    <radialGradient id="rosa-luz" cx="50%" cy="46%" r="58%">
+      <stop offset="0%" stop-color="#FF7A8C" stop-opacity=".22"/>
+      <stop offset="62%" stop-color="#B01030" stop-opacity=".06"/>
+      <stop offset="100%" stop-color="#2A0512" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="rosa-vol" cx="50%" cy="50%" r="52%">
+      <stop offset="0%" stop-color="#FFA3AF" stop-opacity=".34"/>
+      <stop offset="100%" stop-color="#5A0418" stop-opacity=".22"/>
+    </radialGradient>
+    <filter id="rosa-sombra" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="7" stdDeviation="13" flood-color="#12000A" flood-opacity=".5"/>
+    </filter>
+  </defs>
+
+  <circle cx="200" cy="200" r="192" fill="url(#rosa-luz)"/>
+
+  <g filter="url(#rosa-sombra)">
+    <path class="petala" id="petala-1" data-petala="1" role="button" tabindex="0" aria-label="Pétala 1"
+          fill="var(--petala-1, #6B0B21)" stroke="var(--ouro, #C9A227)" stroke-width=".85" stroke-opacity=".40"
+          d="M 195.04 172.74 C 148.46 124.66 133.35 62.03 136.52 49.87 C 162.96 26.23 200.00 30.48 215.70 43.49 C 233.68 33.86 270.82 37.06 292.04 65.47 C 292.73 78.02 251.54 124.66 204.96 172.74 Z"/>
+    <path class="petala" id="petala-2" data-petala="2" role="button" tabindex="0" aria-label="Pétala 2"
+          fill="var(--petala-2, #6E0C22)" stroke="var(--ouro, #C9A227)" stroke-width=".85" stroke-opacity=".40"
+          d="M 221.29 215.86 C 285.71 217.30 337.48 251.42 343.18 262.30 C 339.51 297.49 309.54 319.88 289.43 321.27 C 282.15 340.08 251.90 362.09 217.20 355.19 C 208.49 346.53 209.74 286.90 213.93 222.59 Z"/>
+    <path class="petala" id="petala-3" data-petala="3" role="button" tabindex="0" aria-label="Pétala 3"
+          fill="var(--petala-3, #720E24)" stroke="var(--ouro, #C9A227)" stroke-width=".85" stroke-opacity=".40"
+          d="M 174.79 202.80 C 129.77 245.26 71.09 255.26 59.84 251.16 C 38.98 222.85 45.45 186.05 58.89 171.39 C 52.22 152.66 60.59 116.24 90.83 98.29 C 102.79 98.90 138.72 143.20 175.66 192.86 Z"/>
+    <path class="petala" id="petala-4" data-petala="4" role="button" tabindex="0" aria-label="Pétala 4"
+          fill="var(--petala-4, #771126)" stroke="var(--ouro, #C9A227)" stroke-width=".85" stroke-opacity=".40"
+          d="M 215.75 181.66 C 217.89 122.42 252.40 77.06 263.17 72.63 C 297.32 79.39 317.68 110.47 318.00 130.00 C 334.99 139.65 352.50 172.43 342.07 205.63 C 333.02 212.96 279.57 202.86 221.79 189.55 Z"/>
+    <path class="petala" id="petala-5" data-petala="5" role="button" tabindex="0" aria-label="Pétala 5"
+          fill="var(--petala-5, #7D1329)" stroke="var(--ouro, #C9A227)" stroke-width=".85" stroke-opacity=".40"
+          d="M 200.94 222.94 C 239.21 264.67 244.72 318.81 239.91 329.02 C 210.59 346.82 174.85 338.18 161.48 324.50 C 142.73 328.25 108.35 315.20 94.21 283.95 C 96.00 272.81 140.99 247.31 191.25 221.23 Z"/>
+    <path class="petala" id="petala-6" data-petala="6" role="button" tabindex="0" aria-label="Pétala 6"
+          fill="var(--petala-6, #84162C)" stroke="var(--ouro, #C9A227)" stroke-width=".85" stroke-opacity=".40"
+          d="M 184.54 184.73 C 130.72 182.00 91.70 147.96 88.47 137.56 C 97.86 105.25 129.35 87.40 147.98 88.16 C 159.40 73.42 193.33 60.84 224.09 74.47 C 229.97 83.65 213.05 129.62 192.72 179.53 Z"/>
+    <path class="petala" id="petala-7" data-petala="7" role="button" tabindex="0" aria-label="Pétala 7"
+          fill="var(--petala-7, #8B192F)" stroke="var(--ouro, #C9A227)" stroke-width=".85" stroke-opacity=".40"
+          d="M 220.47 200.58 C 258.63 166.63 307.67 164.92 316.72 170.20 C 331.30 199.61 320.74 233.42 307.07 245.27 C 308.09 263.34 291.20 294.47 259.94 304.49 C 249.84 301.68 234.00 258.26 218.01 209.76 Z"/>
+    <path class="petala" id="petala-8" data-petala="8" role="button" tabindex="0" aria-label="Pétala 8"
+          fill="var(--petala-8, #921C32)" stroke="var(--ouro, #C9A227)" stroke-width=".85" stroke-opacity=".40"
+          d="M 185.59 212.69 C 182.41 260.77 149.75 293.55 139.95 295.69 C 110.22 284.29 95.26 253.25 97.05 235.88 C 84.86 223.38 77.28 189.77 93.48 162.36 C 102.48 157.95 140.17 179.45 181.33 204.49 Z"/>
+    <path class="petala-fundo" aria-hidden="true"
+          fill="var(--petala-fundo-8, #9A2035)" stroke="var(--ouro, #C9A227)" stroke-width=".7" stroke-opacity=".26"
+          d="M 201.75 182.18 C 172.24 147.95 173.59 104.57 179.08 96.76 C 207.58 85.43 238.60 97.47 248.74 110.80 C 265.43 112.13 292.32 131.73 298.18 161.83 C 294.57 170.67 254.76 178.08 210.14 185.24 Z"/>
+    <path class="petala-fundo" aria-hidden="true"
+          fill="var(--petala-fundo-9, #A22338)" stroke="var(--ouro, #C9A227)" stroke-width=".7" stroke-opacity=".26"
+          d="M 210.07 213.17 C 252.02 216.62 278.72 246.97 279.91 255.90 C 267.24 282.33 237.65 294.18 221.94 291.52 C 209.15 301.01 177.41 303.87 154.13 286.06 C 151.14 277.56 174.86 248.48 202.16 216.44 Z"/>
+    <path class="petala-fundo" aria-hidden="true"
+          fill="var(--petala-fundo-10, #AA273C)" stroke="var(--ouro, #C9A227)" stroke-width=".7" stroke-opacity=".26"
+          d="M 185.00 197.46 C 155.14 222.36 117.98 218.77 111.50 213.37 C 103.33 186.86 116.18 159.51 128.72 151.23 C 131.89 136.55 152.74 114.65 180.40 112.67 C 187.78 116.76 188.41 151.23 188.44 190.11 Z"/>
+    <path class="petala-fundo" aria-hidden="true"
+          fill="var(--petala-fundo-11, #B32B40)" stroke="var(--ouro, #C9A227)" stroke-width=".7" stroke-opacity=".26"
+          d="M 211.53 192.40 C 215.03 157.06 242.04 136.25 249.84 135.84 C 272.29 148.85 280.96 175.81 277.68 189.42 C 284.48 201.66 283.33 229.96 265.18 248.50 C 257.56 250.19 236.87 226.65 213.81 199.65 Z"/>
+    <path class="petala-fundo" aria-hidden="true"
+          fill="var(--petala-fundo-12, #BC2F44)" stroke="var(--ouro, #C9A227)" stroke-width=".7" stroke-opacity=".26"
+          d="M 197.10 212.01 C 217.15 236.91 212.23 267.21 207.25 272.31 C 183.95 277.57 161.14 264.82 154.82 253.64 C 142.72 249.31 126.28 228.99 127.51 205.14 C 131.69 199.37 159.45 203.48 191.03 208.49 Z"/>
+    <path class="petala-fundo" aria-hidden="true"
+          fill="var(--petala-fundo-13, #C53348)" stroke="var(--ouro, #C9A227)" stroke-width=".7" stroke-opacity=".26"
+          d="M 194.68 190.57 C 166.66 187.29 151.54 164.82 151.71 158.45 C 163.89 140.69 186.82 135.07 197.83 138.56 C 208.57 134.30 231.83 138.28 245.24 155.15 C 245.85 161.48 224.92 174.47 200.87 189.20 Z"/>
+    <path class="petala-fundo" aria-hidden="true"
+          fill="var(--petala-fundo-14, #CE374C)" stroke="var(--ouro, #C9A227)" stroke-width=".7" stroke-opacity=".26"
+          d="M 208.78 202.78 C 227.85 187.98 250.46 193.15 254.10 197.30 C 256.86 215.92 245.52 233.20 236.42 237.50 C 231.84 246.48 214.25 257.30 195.71 254.00 C 191.67 250.24 198.13 230.28 205.59 207.32 Z"/>
+    <path class="petala-fundo" aria-hidden="true"
+          fill="var(--petala-fundo-15, #D83C50)" stroke="var(--ouro, #C9A227)" stroke-width=".7" stroke-opacity=".26"
+          d="M 193.29 203.19 C 190.66 222.61 174.40 232.12 169.88 231.66 C 157.71 221.90 154.84 205.00 157.93 197.27 C 155.86 189.21 160.89 172.83 174.22 164.72 C 178.76 164.85 185.20 180.52 192.70 198.63 Z"/>
+    <path class="petala-fundo" aria-hidden="true"
+          fill="var(--petala-fundo-16, #E24054)" stroke="var(--ouro, #C9A227)" stroke-width=".7" stroke-opacity=".26"
+          d="M 201.87 195.26 C 193.77 184.40 197.47 171.91 200.00 170.00 C 210.97 169.19 220.57 176.55 222.68 182.01 C 227.52 185.30 232.49 196.32 229.21 206.82 C 226.77 208.85 216.43 203.49 204.36 197.35 Z"/>
+
+    <g class="rosa__miolo" aria-hidden="true">
+      <circle cx="200" cy="200" r="15" fill="url(#rosa-vol)"/>
+      <path fill="none" stroke="var(--petala-miolo, #EE5C6C)" stroke-width="4" stroke-linecap="round" stroke-opacity=".9" d="M 200.00 198.60 L 200.27 198.50 L 200.58 198.45 L 200.92 198.47 L 201.26 198.56 L 201.60 198.73 L 201.92 198.97 L 202.20 199.29 L 202.42 199.68 L 202.56 200.13 L 202.63 200.61 L 202.59 201.12 L 202.46 201.64 L 202.22 202.15 L 201.87 202.61 L 201.43 203.02 L 200.90 203.36 L 200.29 203.59 L 199.63 203.71 L 198.94 203.71 L 198.23 203.58 L 197.54 203.31 L 196.90 202.91 L 196.32 202.37 L 195.83 201.72 L 195.46 200.98 L 195.23 200.15 L 195.15 199.28 L 195.24 198.38 L 195.49 197.49 L 195.91 196.64 L 196.50 195.87 L 197.23 195.19 L 198.09 194.65 L 199.06 194.27 L 200.10 194.06 L 201.19 194.05 L 202.28 194.24 L 203.34 194.63 L 204.34 195.22 L 205.23 195.99 L 205.97 196.94 L 206.55 198.02 L 206.93 199.21 L 207.09 200.47 L 207.01 201.76 L 206.70 203.04 L 206.16 204.27 L 205.39 205.39 L 204.41 206.38 L 203.25 207.18 L 201.94 207.77 L 200.53 208.12 L 199.05 208.21 L 197.56 208.04 L 196.10 207.58 L 194.72 206.86 L 193.48 205.90 L 192.42 204.70 L 191.58 203.32 L 191.00 201.78 L 190.70 200.14 L 190.69 198.46 L 191.00 196.77 L 191.61 195.15 L 192.51 193.64 L 193.69 192.30 L 195.11 191.18 L 196.73 190.33 L 198.49 189.77 L 200.35 189.53 L 202.25 189.64 L 204.12 190.09 L 205.89 190.88"/>
+      <path fill="none" stroke="var(--ouro, #C9A227)" stroke-width=".8" stroke-linecap="round" stroke-opacity=".40" d="M 200.00 198.60 L 200.27 198.50 L 200.58 198.45 L 200.92 198.47 L 201.26 198.56 L 201.60 198.73 L 201.92 198.97 L 202.20 199.29 L 202.42 199.68 L 202.56 200.13 L 202.63 200.61 L 202.59 201.12 L 202.46 201.64 L 202.22 202.15 L 201.87 202.61 L 201.43 203.02 L 200.90 203.36 L 200.29 203.59 L 199.63 203.71 L 198.94 203.71 L 198.23 203.58 L 197.54 203.31 L 196.90 202.91 L 196.32 202.37 L 195.83 201.72 L 195.46 200.98 L 195.23 200.15 L 195.15 199.28 L 195.24 198.38 L 195.49 197.49 L 195.91 196.64 L 196.50 195.87 L 197.23 195.19 L 198.09 194.65 L 199.06 194.27 L 200.10 194.06 L 201.19 194.05 L 202.28 194.24 L 203.34 194.63 L 204.34 195.22 L 205.23 195.99 L 205.97 196.94 L 206.55 198.02 L 206.93 199.21 L 207.09 200.47 L 207.01 201.76 L 206.70 203.04 L 206.16 204.27 L 205.39 205.39 L 204.41 206.38 L 203.25 207.18 L 201.94 207.77 L 200.53 208.12 L 199.05 208.21 L 197.56 208.04 L 196.10 207.58 L 194.72 206.86 L 193.48 205.90 L 192.42 204.70 L 191.58 203.32 L 191.00 201.78 L 190.70 200.14 L 190.69 198.46 L 191.00 196.77 L 191.61 195.15 L 192.51 193.64 L 193.69 192.30 L 195.11 191.18 L 196.73 190.33 L 198.49 189.77 L 200.35 189.53 L 202.25 189.64 L 204.12 190.09 L 205.89 190.88"/>
+    </g>
+  </g>
+</svg>
